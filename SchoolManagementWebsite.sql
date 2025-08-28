@@ -103,7 +103,7 @@ INSERT INTO students (first_name, surname, birthday, grade) VALUES
 -- Insert sample course enrollments
 INSERT INTO course_logins (student_id, course_id, login_date_time) VALUES
 (1, 'MATH101', '2025-01-10 09:00:00'),
-(1, 'ENG101', '2025-01-10 09:15:00'),
+(1, 'E  NG101', '2025-01-10 09:15:00'),
 (2, 'MATH101', '2025-01-10 10:00:00'),
 (2, 'CS101', '2025-01-10 10:30:00'),
 (3, 'PHY101', '2025-01-11 08:30:00'),
