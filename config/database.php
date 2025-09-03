@@ -2,8 +2,8 @@
 // Database configuration
 $host = 'localhost';
 $dbname = 'course_management';
-$username = 'sql-user'; // Change this to your database username
-$password = 'sql-user'; // Change this to your database password
+$username = 'root'; // Change this to your database username
+$password = ''; // Change this to your database password
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
